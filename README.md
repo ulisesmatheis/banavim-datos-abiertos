@@ -71,6 +71,32 @@ Perfil de víctimas (edad, características sociales)
 
 ### Estructura
 
+* id → identificador de la fila
+* fecha_registro
+* estado
+* municipio
+* escolaridad
+* edad
+* estado_civil
+* sexo
+* vinculo_con_la_victima
+
+### Resumen
+
+* Nivel: individuo (agresor)
+* Granularidad: 1 fila = 1 agresor
+* Tipo de datos: categóricos, numéricos
+
+### Observaciones
+
+* Relación con víctima no estandarizada
+* Variables inconsistentes
+* Datos faltantes en comportamiento
+
+### Usos principales
+
+Perfil del agresor y patrones de conducta
+
 # Enlace de descarga
 
 Enlace directo para la descarga de los datasets [Banavim Abierto](https://banavimabierto.mx/descarga.php). 
