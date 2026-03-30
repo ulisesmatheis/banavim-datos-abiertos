@@ -71,6 +71,6 @@ Perfil de víctimas (edad, características sociales)
 
 ### Estructura
 
-#### Enlace de descarga
+# Enlace de descarga
 
-https://banavimabierto.mx/descarga.php
+Enlace directo para la descarga de los datasets [Banavim Abierto]([https://pages.github.com/](https://banavimabierto.mx/descarga.php)). 
