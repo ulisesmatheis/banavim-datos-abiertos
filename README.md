@@ -8,14 +8,22 @@ Columnas principales:
 
 * id → identificador del caso
 * fecha_registro
-fecha_hechos
-estado
-municipio
-lugar_hechos
-modalidad_violencia
-conoce_agresor
-múltiples columnas tipo:
-violencia_fisica
-violencia_psicologica
-violencia_sexual
-etc.
+* estado
+* fecha_hechos
+* lugar_hechos
+* modalidad_violencia
+* conoce_agresor
+* hubo_drogas
+* hubo_armas
+* múltiples columnas tipo: violencia_fisica, violencia_psicologica, violencia_sexual, etc.
+
+### Resumen actual
+
+* Nivel: evento (caso)
+* Granularidad: 1 fila = 1 caso
+* Tipo de datos: fechas, categóricos (municipio, lugar)
+* binarios (tipos de violencia)
+
+## Dataset 2: Casos
+
+### Estructura
