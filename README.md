@@ -6,8 +6,8 @@
 
 Columnas principales:
 
-id → identificador del caso
-fecha_registro
+* id → identificador del caso
+* fecha_registro
 fecha_hechos
 estado
 municipio
