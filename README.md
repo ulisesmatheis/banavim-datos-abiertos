@@ -6,7 +6,7 @@
 
 Columnas principales:
 
-* id → identificador del caso
+* id → identificador de la fila
 * fecha_registro
 * estado
 * fecha_hechos
@@ -15,15 +15,62 @@ Columnas principales:
 * conoce_agresor
 * hubo_drogas
 * hubo_armas
-* múltiples columnas tipo: violencia_fisica, violencia_psicologica, violencia_sexual, etc.
+* violencia_fisica
+* violencia_psicologica
+* violencia_sexual
+* 
 
-### Resumen actual
+### Resumen
 
 * Nivel: evento (caso)
 * Granularidad: 1 fila = 1 caso
-* Tipo de datos: fechas, categóricos (municipio, lugar)
-* binarios (tipos de violencia)
+* Tipo de datos: fechas, categóricos, binarios
 
-## Dataset 2: Casos
+### Observaciones
+
+* Variación en texto (municipios, lugares)
+* Variables de violencia en formato 0/1 o texto
+* Posibles nulos en ubicación o modalidad
+* Fechas no normalizadas
+
+### Uso principal
+
+Tendencias, distribución geográfica, tipos de violencia
+
+## Dataset 2: Víctimas
 
 ### Estructura
+
+* id → identificador de la fila
+* fecha_registro
+* estado
+* municipio
+* escolaridad
+* edad
+* estado_civil
+* hijas_e_hijos
+* fuente_ingresos
+
+### Resumen
+
+* Nivel: individuo (víctima)
+* Granularidad: 1 fila = 1 víctima
+* Tipo de datos: numéricos, categóricos
+
+### Observaciones
+
+* Edades fuera de rango o nulas
+* Categorías inconsistentes (escolaridad)
+* Falta de relación directa con casos
+
+### Usos principales
+
+Perfil de víctimas (edad, características sociales)
+
+## Dataset 3: Agresores
+
+### Estructura
+
+#### Enlace de descarga
+
+https://banavimabierto.mx/descarga.php
