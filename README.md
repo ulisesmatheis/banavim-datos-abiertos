@@ -2,7 +2,7 @@
 
 ## Dataset 1: Casos
 
-# Estructura
+### Estructura
 
 Columnas principales:
 
